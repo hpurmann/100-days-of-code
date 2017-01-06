@@ -6,7 +6,7 @@
 
 **Thoughts**: A bit boring to do but now, it will be pretty easy to connect the rendering with the state and dispatch actions on clicks.
 
-**Link(s) to work**: [Redux Devtools Extension](https://github.com/zalmoxisus/redux-devtools-extension<Paste>)
+**Link(s) to work**: [Redux Devtools Extension](https://github.com/zalmoxisus/redux-devtools-extension)
 
 ### Day 1: January 03, Tuesday
 
