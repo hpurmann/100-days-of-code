@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 4: January 07, Saturday
+
+**Today's Progress**: Tried to connect the Items to the state so that their presentation reflects the current state (e.g. the turn blue when the state says they are selected). Fighing with the `getSelection` selector exported by `yourchoice-redux`. I can manually read the state and it's correct but with the selector, the array of selected elements is always empty. Tried to `yarn link` the `yourchoice-redux` module to make debugging easier. Webpack Hot Module Replacement doesn't seem to like that. Source Maps aren't working  either.
+
+**Thoughts**: Pretty frustrating that this small piece of code is causing that much trouble. Something with the `bindToSelection` is not working as intended. Maybe it's even a bug in `yourchoice-redux` (though I doubt it).
+
+**Link(s) to work**: _No link today_
+
+
 ### Day 3: January 05, Thursday
 
 **Today's Progress**: Connected the React components to the Redux store to be able to dispatch actions based on user interactions (click, cmd+click, shift+click). Found a weird problem in the end when trying to use an exported selector from `yourchoice-redux` to get the array of currently selected items.
