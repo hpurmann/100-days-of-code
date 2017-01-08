@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 5: January 08, Sunday
+
+**Today's Progress**: Progress! With a fresh mind, I knew the reason why source maps didn't work: They were disabled in my Chrome. By that time, I already upgraded to Webpack 2. Works out of the box. Then I found the problem with the dispatch of the "REPLACE" action as well. And in the end, I even found out why the selector was not working as I thought. I had to give it the sub-state where `yourchoice-redux` is mounted.
+
+**Thoughts**: Feeling good that I fixed these. On the other hand – why was I making these mistakes in the first place? Maybe I shouldn't be coding at 2am.
+
+**Link(s) to work**: 
+* [Getting started with Webpack 2](https://blog.madewithenvy.com/getting-started-with-webpack-2-ed2b86c68783#.z8ffszi48)
+* [Moving to Webpack 2](http://javascriptplayground.com/blog/2016/10/moving-to-webpack-2/)
+
 ### Day 4: January 07, Saturday
 
 **Today's Progress**: Tried to connect the Items to the state so that their presentation reflects the current state (e.g. the turn blue when the state says they are selected). Fighing with the `getSelection` selector exported by `yourchoice-redux`. I can manually read the state and it's correct but with the selector, the array of selected elements is always empty. Tried to `yarn link` the `yourchoice-redux` module to make debugging easier. Webpack Hot Module Replacement doesn't seem to like that. Source Maps aren't working  either.
