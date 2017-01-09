@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 6: January 09, Monday
+
+**Today's Progress**: Configured Webpack to build a minified production bundle and decided to directly check it in into source control. It is considered an anti-pattern to host generated files. For pragmatically hosting something now, I decided to take this as the first approach.
+
+**Thoughts**: Finally I got something out there. It's not pretty but it already works and shows how [`yourchoice`](https://github.com/actano/yourchoice) decides which items are selected.
+
+**Link(s) to work**: [Hosted yourchoice demo](http://hpurmann.com/yourchoice-redux-example/)
+
 ### Day 5: January 08, Sunday
 
 **Today's Progress**: Progress! With a fresh mind, I knew the reason why source maps didn't work: They were disabled in my Chrome. By that time, I already upgraded to Webpack 2. Works out of the box. Then I found the problem with the dispatch of the "REPLACE" action as well. And in the end, I even found out why the selector was not working as I thought. I had to give it the sub-state where `yourchoice-redux` is mounted.
