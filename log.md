@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 7: January 10, Tuesday
+
+**Today's Progress**: Today's work was dedicated to displaying the internal state of yourchoice. We now render the last action dispatched and the current anchor item. Additionally, some styles were enhanced.
+
+**Thoughts**: The anchor is pretty helpful. The icon needs an explanation though.
+
 ### Day 6: January 09, Monday
 
 **Today's Progress**: Configured Webpack to build a minified production bundle and decided to directly check it in into source control. It is considered an anti-pattern to host generated files. For pragmatically hosting something now, I decided to take this as the first approach.
