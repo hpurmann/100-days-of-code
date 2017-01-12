@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 8: January 12, Thursday
+
+**Today's Progress**: Because the basic functionality of the demo is done, I took the time to look into styling. People will get a more positive impression of the library if the demo page is visually appealing. A logo could be nice as well. I found the Bootstrap implementation for React.
+
+**Thoughts**: Great that this library exists. The first impression is good. This way, I don't have to spend as much time on styling while still getting a proper result.
+
+**Link(s) to work**: [React Bootstrap](https://react-bootstrap.github.io/)
+
 ### Day 7: January 10, Tuesday
 
 **Today's Progress**: Today's work was dedicated to displaying the internal state of yourchoice. We now render the last action dispatched and the current anchor item. Additionally, some styles were enhanced.
