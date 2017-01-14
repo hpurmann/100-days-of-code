@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 9: January 13, Friday
+
+**Today's Progress**: I managed to get the Grid layout of `react-bootstrap` working. Now I got a centered main column. The list is rendered with the Bootstrap `ListGroup` and `ListGroupItem`. I still have a problem with the focus pseudo-selector styling.
+
+**Thoughts**: Not that much progress. I need to fill in the content and finish this project.
+
+**Link(s) to work**: [Yourchoice with Bootstrap layout](http://hpurmann.com/yourchoice-redux-example/)
+
 ### Day 8: January 12, Thursday
 
 **Today's Progress**: Because the basic functionality of the demo is done, I took the time to look into styling. People will get a more positive impression of the library if the demo page is visually appealing. A logo could be nice as well. I found the Bootstrap implementation for React.
