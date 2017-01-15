@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 10: January 14, Saturday
+
+**Today's Progress**: Today I did a small improvement. I extended the item data with a name. This way, I can split the rendering of the id from the rendering of the name. Then I changed the rendering to use flexbox. I first thought I don't need to specify a width with flexbox. In the end, I chose percentage values.
+
+**Thoughts**: The progress is ok. Custom React propTypes are nice. Static typing would be even nicer (though not required for such a small project). Splitting the data will be needed when I include it in the redux state.
+
 ### Day 9: January 13, Friday
 
 **Today's Progress**: I managed to get the Grid layout of `react-bootstrap` working. Now I got a centered main column. The list is rendered with the Bootstrap `ListGroup` and `ListGroupItem`. I still have a problem with the focus pseudo-selector styling.
