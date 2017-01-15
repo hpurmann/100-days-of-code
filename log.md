@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 11: January 15, Sunday
+
+**Today's Progress**: I added a small description to a few of the API functions. They get displayed whenever they get called in the app. I'm thinking about adding the action payload as well.
+
+**Thoughts**: I still need to somehow encourage the visitor to play around with the selection. I want to list what yourchoice is _not_.
+
 ### Day 10: January 14, Saturday
 
 **Today's Progress**: Today I did a small improvement. I extended the item data with a name. This way, I can split the rendering of the id from the rendering of the name. Then I changed the rendering to use flexbox. I first thought I don't need to specify a width with flexbox. In the end, I chose percentage values.
