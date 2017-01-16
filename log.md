@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 12: January 16, Monday
+
+**Today's Progress**: Finally I added a meaningful description text on the right side. Though this is not coding, I had to do it because it provides huge value to the visitor.
+
+**Thoughts**: This is getting somewhere! I'm already thinking about transferring these commits to yourchoice repository's `gh-pages` branch.
+
+**Link(s) to work**: [Yourchoice with proper description](http://hpurmann.com/yourchoice-redux-example/)
+
 ### Day 11: January 15, Sunday
 
 **Today's Progress**: I added a small description to a few of the API functions. They get displayed whenever they get called in the app. I'm thinking about adding the action payload as well.
@@ -48,7 +56,7 @@
 
 **Thoughts**: Feeling good that I fixed these. On the other hand – why was I making these mistakes in the first place? Maybe I shouldn't be coding at 2am.
 
-**Link(s) to work**: 
+**Link(s) to work**:
 * [Getting started with Webpack 2](https://blog.madewithenvy.com/getting-started-with-webpack-2-ed2b86c68783#.z8ffszi48)
 * [Moving to Webpack 2](http://javascriptplayground.com/blog/2016/10/moving-to-webpack-2/)
 
