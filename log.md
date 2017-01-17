@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 13: January 17, Tuesday
+
+**Today's Progress**: I added a component to show the current state. This way, developers know what data they get out of the libray.
+
+**Thoughts**: This looks pretty helpful again. I think I'm already in the refinement process.
+
+**Link(s) to work**: [Yourchoice with state inspector](http://hpurmann.com/yourchoice-redux-example/)
+
 ### Day 12: January 16, Monday
 
 **Today's Progress**: Finally I added a meaningful description text on the right side. Though this is not coding, I had to do it because it provides huge value to the visitor.
