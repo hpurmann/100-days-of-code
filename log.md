@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 14: January 18, Wednesday
+
+**Today's Progress**: I moved the website to a new orphaned branch inside the yourchoice repository. Then, I wrote a small publish script to publish to GitHub pages.
+
+**Thoughts**: This was a bit tedious. Now I'm glad that everything works.
+
+**Link(s) to work**: [Yourchoice on new GitHub pages](https://actano.github.io/yourchoice/)
+
 ### Day 13: January 17, Tuesday
 
 **Today's Progress**: I added a component to show the current state. This way, developers know what data they get out of the libray.
