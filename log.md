@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 15: January 19, Thursday
+
+**Today's Progress**: Tried to get the items into the state because I want to add buttons for adding and removing items. To do this in a clean way, i want to separate data (items by id) from the order (array of ids). This should usually be easy but I faced weird problems with `combineReducers` which just vanished after fiddling with it a bit.
+
+**Thoughts**: Grmpf, I didn't push anything. Tomorrow, I should be able to make this work and be finished with the project. Finally. Seeking for something else already.
+
+**Link(s) to work**: [`combineReducers`](http://redux.js.org/docs/api/combineReducers.html)
+
+
 ### Day 14: January 18, Wednesday
 
 **Today's Progress**: I moved the website to a new orphaned branch inside the yourchoice repository. Then, I wrote a small publish script to publish to GitHub pages.
