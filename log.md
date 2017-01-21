@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 16: January 20, Friday
+
+**Today's Progress**: Got the list connected to the state. I initially dispatch an action for each item. Now I see the design flaw of the module a lot cleaner than I did in RPLAN: When I add or remove an item in my state, I need to also dispatch the action for `yourchoice-redux` to update the selection state. Problem is: The state is inconsitent (broken) in the time between the two dispatches. Items are already removed in my list but still marked as selected in yourchioce. In RPLAN, we solved this by explicity calling the reducer whenever we see actions which could change the iterable of selectable items. We essentially mark the action to be caught by this app-specific reducer. Some similar concept could be applied to `yourchoice-redux` itself.
+
+**Thoughts**: This is good and bad at the same time. I learned something about our library building the demo page for it. But I also learned why the wrapper around the library may not be as good.
+
 ### Day 15: January 19, Thursday
 
 **Today's Progress**: Tried to get the items into the state because I want to add buttons for adding and removing items. To do this in a clean way, i want to separate data (items by id) from the order (array of ids). This should usually be easy but I faced weird problems with `combineReducers` which just vanished after fiddling with it a bit.
@@ -7,7 +13,6 @@
 **Thoughts**: Grmpf, I didn't push anything. Tomorrow, I should be able to make this work and be finished with the project. Finally. Seeking for something else already.
 
 **Link(s) to work**: [`combineReducers`](http://redux.js.org/docs/api/combineReducers.html)
-
 
 ### Day 14: January 18, Wednesday
 
