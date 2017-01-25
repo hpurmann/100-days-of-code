@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 17: January 25, Wednesday
+
+**Today's Progress**: I started a new project: I want to explore the Rust language and play around with it. Therefore I decided to implement a simple Hangman game in Rust. Later, this topic could be expanded by implementing multi-user games or a web UI. Let's see how long until I'm bored.
+
+**Thoughts**: I feel guilty to having skipped the last 4 days. I wasn't feeling that well. I think it's great to use Rust altough iterating over a string was harder than expected ;)
+
+**Link(s) to work**: [Hangman Rust](https://github.com/hpurmann/hangman-rust)
+
 ### Day 16: January 20, Friday
 
 **Today's Progress**: Got the list connected to the state. I initially dispatch an action for each item. Now I see the design flaw of the module a lot cleaner than I did in RPLAN: When I add or remove an item in my state, I need to also dispatch the action for `yourchoice-redux` to update the selection state. Problem is: The state is inconsitent (broken) in the time between the two dispatches. Items are already removed in my list but still marked as selected in yourchioce. In RPLAN, we solved this by explicity calling the reducer whenever we see actions which could change the iterable of selectable items. We essentially mark the action to be caught by this app-specific reducer. Some similar concept could be applied to `yourchoice-redux` itself.
