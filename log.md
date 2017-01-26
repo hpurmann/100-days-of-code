@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+Found out that googling "create new char rust" might yield gaming related results.
+
+### Day 18: January 26, Thursday
+
+**Today's Progress**: Added a function for printing the current gap word. The idea is to mutate the `revealed` flag of each digit in a gap word while playing. Maybe that's not the best idea because Rust is Immutable by default. Let's see ...
+
+**Thoughts**: I'm soo slow. This is not surprising though. Having spend the last years in a dynamically typed language, I'm fighting with the compiler the whole time. Still worth it!
+
+**Link(s) to work**: ["create new char rust" on Google](https://www.google.de/search?q=create+new+char+rust&oq=create+new+char+rust&aqs=chrome..69i64.1022j0j1&sourceid=chrome&ie=UTF-8)
+
 ### Day 17: January 25, Wednesday
 
 **Today's Progress**: I started a new project: I want to explore the Rust language and play around with it. Therefore I decided to implement a simple Hangman game in Rust. Later, this topic could be expanded by implementing multi-user games or a web UI. Let's see how long until I'm bored.
