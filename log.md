@@ -1,6 +1,15 @@
 # 100 Days Of Code - Log
 
-Found out that googling "create new char rust" might yield gaming related results.
+### Day 19: January 28, Saturday
+
+**Today's Progress**: Learned about mutability in Rust. I want to change a value of a struct inside a vector. Now I create a completely new vector and copy over values by hand. This cannot be the right approach. Mapping over an iterator seems much better, but time's up for today.
+
+**Thoughts**: The iterator article is pretty interesting, especially the difference between `iter()` and `into_iter()`.
+
+**Link(s) to work**: 
+* [Using iterators in Rust](http://hermanradtke.com/2015/06/22/effectively-using-iterators-in-rust.html)
+* [Mutablility in Rust](https://doc.rust-lang.org/beta/book/mutability.html)
+
 
 ### Day 18: January 26, Thursday
 
