@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 20: January 29, Sunday
+
+**Today's Progress**: I managed to simplify my algorith a lot. I now only store the already guessed characters in a `HashSet`. The solution string is obiviously immutable. Other than that, I always convert everything to uppercase now.
+
+**Thoughts**: I'm glad that I could reduce the LOC with the new approach.
+
+**Link(s) to work**: [HashSet](https://doc.rust-lang.org/std/collections/struct.HashSet.html)
+
 ### Day 19: January 28, Saturday
 
 **Today's Progress**: Learned about mutability in Rust. I want to change a value of a struct inside a vector. Now I create a completely new vector and copy over values by hand. This cannot be the right approach. Mapping over an iterator seems much better, but time's up for today.
