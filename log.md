@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 21: January 30, Monday
+
+**Today's Progress**: The hangman game is working. Winning and losing conditions have been added. The output looks a lot better. Now, I want to add fetching random english words from an API. I'll probably use the [Pearson API](http://developer.pearson.com/apis/dictionaries#/) and fetch it with [Hyper](https://hyper.rs/).
+
+**Thoughts**: This small game only scratches the surface of what makes Rust a great language. I want to try if concurrency is handled similarly to Go but I lack an idea where it shows off.
+
+**Link(s) to work**: [Hyper](https://hyper.rs/)
+
+
 ### Day 20: January 29, Sunday
 
 **Today's Progress**: I managed to simplify my algorith a lot. I now only store the already guessed characters in a `HashSet`. The solution string is obiviously immutable. Other than that, I always convert everything to uppercase now.
