@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 22: January 31, Tuesday
+
+**Today's Progress**: I found Serde, which looks great for de-serializing JSON responses. I tried it on the surface and it looks easy to use. I can define how the structure of the response should look like.
+
+**Thoughts**: Coding late in the night usually doesn't yield the best performance. Tomorrow I should start much earlier.
+
+**Link(s) to work**: [Serde](https://serde.rs/)
+
 ### Day 21: January 30, Monday
 
 **Today's Progress**: The hangman game is working. Winning and losing conditions have been added. The output looks a lot better. Now, I want to add fetching random english words from an API. I'll probably use the [Pearson API](http://developer.pearson.com/apis/dictionaries#/) and fetch it with [Hyper](https://hyper.rs/).
