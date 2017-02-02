@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 23: February 1, Wednesday
+
+**Today's Progress**: The program now gets a random word out of a dictionary which is accessible with an API. Now the game is fun to play ;)
+
+**Thoughts**: I really like how I can define the structure (and type) of data I get back as a response. I'm still surprised how much code I wrote to get this simple functionality. At least it's separated in another module.
+
+**Link(s) to work**: [rand](https://doc.rust-lang.org/rand/rand/index.html)
+
 ### Day 22: January 31, Tuesday
 
 **Today's Progress**: I found Serde, which looks great for de-serializing JSON responses. I tried it on the surface and it looks easy to use. I can define how the structure of the response should look like.
