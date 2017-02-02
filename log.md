@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 24: February 2, Thursday
+
+**Today's Progress**: Added a spinner to the program. Now the user sees why the program waits. Looked at error handling when not having an internet connection. Currently it panicks because I just use `unwrap`.
+
+**Thoughts**: Pretty small progress. The main part of the program is done.
+
+**Link(s) to work**: [Spinner](https://github.com/TheNeikos/spinner)
+
 ### Day 23: February 1, Wednesday
 
 **Today's Progress**: The program now gets a random word out of a dictionary which is accessible with an API. Now the game is fun to play ;)
