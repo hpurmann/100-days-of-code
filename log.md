@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 25: February 6, Monday
+
+**Today's Progress**: Have had a further look into error handling in Rust. The fact that an IOError can occur in some nested function down the call stack requires me to handle this error everywhere further up the stack. So in essence, all function signatures need to be changed to also return a `Result` type and my `main` function needs to print appropriate error messages depending on the error type.
+
+**Thoughts**: Being "safe" means to care for a lot of things. This may seem tedious for a quick example like this Hangman game. But I think it's well worth the effort for security-relevant applications. Hangman might just not be the right problem for this language :D
+
+**Link(s) to work**:
+* [Error handling in Rust](https://doc.rust-lang.org/book/error-handling.html)
+* [On Error Handling in Rust](http://lucumr.pocoo.org/2014/10/16/on-error-handling/)
+
 ### Day 24: February 2, Thursday
 
 **Today's Progress**: Added a spinner to the program. Now the user sees why the program waits. Looked at error handling when not having an internet connection. Currently it panicks because I just use `unwrap`.
