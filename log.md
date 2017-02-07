@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 26: February 7, Tuesday
+
+**Today's Progress**: Looked into ways how to properly return an error from my function. I need to somehow cast the errors from the two libraries I use to the same Error object. Currently, I use `Box<Error>` but this swallows the error type. And besides that, I'm not really done with it.
+
+**Thoughts**: This is pretty frustrating. I'm feeling that I lose motivation because I don't seem to make that much progress lately. I think after finishing the error handling, I'll grab another project.
+
 ### Day 25: February 6, Monday
 
 **Today's Progress**: Have had a further look into error handling in Rust. The fact that an IOError can occur in some nested function down the call stack requires me to handle this error everywhere further up the stack. So in essence, all function signatures need to be changed to also return a `Result` type and my `main` function needs to print appropriate error messages depending on the error type.
