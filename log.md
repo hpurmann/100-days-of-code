@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 27: February 10, Friday
+
+**Today's Progress**: Finally I managed to handle the error that arises when there is no internet connection. I cheated a bit by using the `Box<Error>` type.
+
+**Thoughts**: Once again, I skipped the last two days. I feel kind of bad about it.
+
 ### Day 26: February 7, Tuesday
 
 **Today's Progress**: Looked into ways how to properly return an error from my function. I need to somehow cast the errors from the two libraries I use to the same Error object. Currently, I use `Box<Error>` but this swallows the error type. And besides that, I'm not really done with it.
