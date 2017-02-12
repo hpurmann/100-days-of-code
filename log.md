@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 28: February 12, Sunday
+
+**Today's Progress**: I decided to invest a couple of weeks into `yarn`. I think it's a great project but it really lacks people working on the issues. I don't know if this is a good project for #100DaysOfCode though. Today, I looked into the compatibility algorithm. I want to be able to specify that my current project only works on a specific `node` or `yarn` version. Unfortunately, it seems that this feature is currently only checking dependencies, not the package itself.
+
+**Thoughts**: Yarn still has a lot of bugs and problems. With one hour each day, maybe I can fix some of them. That would be great.
+
+**Link(s) to work**: [Yarn](https://github.com/yarnpkg/yarn)
+
 ### Day 27: February 10, Friday
 
 **Today's Progress**: Finally I managed to handle the error that arises when there is no internet connection. I cheated a bit by using the `Box<Error>` type.
