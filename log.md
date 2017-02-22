@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 29: February 22, Wednesday
+
+**Today's Progress**: I found a few issues I could work on in yarn. Nameley the order of outdated dependencies ([PR](https://github.com/yarnpkg/yarn/pull/2759)) and adding existing dependencies as peer dependencies.
+
+**Thoughts**: I actually feel bad that I paused the challenge for such a long time. I think I miss genuine motivation because I'm not working on my own project.
+
+**Link(s) to work**: 
+* [Yarn issue: Can't add existing dependency as peer dependency](https://github.com/yarnpkg/yarn/issues/2479)
+
 ### Day 28: February 12, Sunday
 
 **Today's Progress**: I decided to invest a couple of weeks into `yarn`. I think it's a great project but it really lacks people working on the issues. I don't know if this is a good project for #100DaysOfCode though. Today, I looked into the compatibility algorithm. I want to be able to specify that my current project only works on a specific `node` or `yarn` version. Unfortunately, it seems that this feature is currently only checking dependencies, not the package itself.
