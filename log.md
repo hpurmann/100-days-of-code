@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 30: February 24, Friday
+
+**Today's Progress**: I looked further into bugs I want to work on. Unfortunately, it is not always clear what the desired solution would be. So I need some comment from the package maintainers.
+
+**Thoughts**: When looking at the yarn codebase, I'm always surprised with how bad the test coverage is. I [pinged the maintainers](https://github.com/yarnpkg/yarn/issues/510#issuecomment-282409996) once again. I don't see a reason not to enable a coverage service. Other than that, I found that `yarn` still uses jest 16, which is pretty old. I [openend a PR to upgrade to jest 19](https://github.com/yarnpkg/yarn/pull/2778).
+
+**Link(s) to work**: 
+* [Yarn issue: Can't add existing dependency as peer dependency](https://github.com/yarnpkg/yarn/issues/2479)
+* [Yarn issue: yarn upgrade only upgrades one instance of a dependency](https://github.com/yarnpkg/yarn/issues/2127)
+
 ### Day 29: February 22, Wednesday
 
 **Today's Progress**: I found a few issues I could work on in yarn. Nameley the order of outdated dependencies ([PR](https://github.com/yarnpkg/yarn/pull/2759)) and adding existing dependencies as peer dependencies.
