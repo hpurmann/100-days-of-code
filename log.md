@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 31: February 26, Sunday
+
+**Today's Progress**: I investigated the cause of a bug. It shows all prompts at once if multiple dependencies have wrong versions specified in their package.json. The cause is a the simultaneous start of all Promises. The simplest approach would be to trigger the promises sequentially. But this would lead to Yarn being much slower in the general case only to fix an edge case. I think a possible solution may be to first sanitize the versions, then sequentially trigger the prompts and afterwards install the "corrected" versions.
+
+**Thoughts**: I didn't write any code but made good use of `node --inspect --debug-brk` for debugging.
+
+**Link(s) to work**: [Yarn issue: Yarn shows all prompts at once when asking to resolve versions](https://github.com/yarnpkg/yarn/issues/2632)
+
 ### Day 30: February 24, Friday
 
 **Today's Progress**: I looked further into bugs I want to work on. Unfortunately, it is not always clear what the desired solution would be. So I need some comment from the package maintainers.
